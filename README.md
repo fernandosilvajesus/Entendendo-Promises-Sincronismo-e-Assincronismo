@@ -76,9 +76,7 @@ Um exemplo prático de operação assíncrona é o processo de preparação do p
 <p>O exemplo acima usa o método fetch para fazer uma requisição HTTP para a API da Speedio, passando o CNPJ como parâmetro de consulta. Em seguida, duas chamadas encadeadas do método .then() são usadas para tratar a resposta da requisição. <br> <br>
 O método fetch é, na verdade, uma função assíncrona que retorna uma Promise. As chamadas encadeadas .then() que vemos no código são usadas para lidar com o resultado dessa Promise.
 </p>
-<p align="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
-</p>
+
 
 ## 😁 Canais que recomendo para aprender 
 
@@ -101,5 +99,8 @@ O método fetch é, na verdade, uma função assíncrona que retorna uma Promise
 * Matheus Battisti - Hora de Codar;
 
 
----
 ⌨️ com ❤️ por [Fernando Silva de Jesus](https://github.com/fernandosilvajesus/) 😊
+
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
