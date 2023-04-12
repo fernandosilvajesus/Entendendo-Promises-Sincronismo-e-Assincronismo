@@ -47,6 +47,21 @@ Um exemplo prático de operação assíncrona é o processo de preparação do p
 
 ## ⚙️ Vamos sair um pouco da teoria!
 
+#### Código síncrono: 
+<p align="center">
+  <h4>Exemplo de código síncrono em Javascript</h4>
+<img src="https://i.ibb.co/t44qrGM/carbon.png"/>
+</p>
+<p>Nesse exemplo, as funções são executadas uma de cada vez, seguindo uma ordem específica. A primeira função é executada antes da segunda, porque o código é escrito de cima para baixo seguindo a ideia de código sincrono.</p>
+
+#### Código Assíncrono: 
+<p align="center">
+  <h4>Exemplo de código Assíncrono em Javascript:</h4>
+<img src="https://i.ibb.co/5228v2C/carbon-1.png"/>
+</p>
+<p>O exemplo acima usa o método fetch para fazer uma requisição HTTP para a API da Speedio, passando o CNPJ como parâmetro de consulta. Em seguida, duas chamadas encadeadas do método .then() são usadas para tratar a resposta da requisição. <br>
+O método fetch é, na verdade, uma função assíncrona que retorna uma Promise. As chamadas encadeadas .then() que vemos no código são usadas para lidar com o resultado dessa Promise.
+</p>
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
