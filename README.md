@@ -45,7 +45,21 @@ Um exemplo prático de operação assíncrona é o processo de preparação do p
 </p>
 
 
-## ⚙️ Agora que entendemos um pouco sobre Operações sincronas e assincronas Vamos sair um pouco da teoria!
+## ⚙️ Agora que entendemos um pouco sobre Promises,Operações sincronas e assincronas Vamos sair um pouco da teoria!
+
+### Promise:
+
+
+<p align="center">
+  <h4>Exemplo de uma Promise em Javascript</h4>
+<img src="https://i.ibb.co/G9rBpf8/carbon-3.png"/>
+</p>
+
+- Quando você cria uma Promise, você pode usar resolve para retornar um valor caso a operação assíncrona seja bem-sucedida, como por exemplo o resultado de uma requisição em uma API.
+- você pode usar reject para retornar uma mensagem de erro caso a operação assíncrona falhe, como por exemplo se a requisição em uma API não for bem-sucedida.
+-  Em resumo, **resolve()** é usado para retornar um valor bem-sucedido e **reject()** é usado para retornar um erro. 
+
+
 
 #### Código síncrono: 
 <p align="center">
