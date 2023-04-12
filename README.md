@@ -1,6 +1,6 @@
 # Entendendo Promises, Sincronismo e Assincronismo  em Javascript
 
-Um parágrafo da descrição do projeto vai aqui
+Este repositório foi desenvolvido com o objetivo de ajudar pessoas que estão aprendendo JavaScript. 
 
 ## 🚀 O que é uma Promise?
 
@@ -14,7 +14,7 @@ Uma Promise possui três estados:
 
 Ao criar uma Promise em JavaScript, você pode definir o que acontecerá quando a operação for bem-sucedida ou falhar, utilizando os métodos **.then()** e **.catch()**, porém, como foi dito acima, a **promise é um objeto que representa o sucesso ou falha de uma operação assincrona**, mas o que é uma operação assincrona e sincrona?
 
-## Operação Sincrona em Javascript
+## 📋 Operação Sincrona em Javascript
 
 Uma operação síncrona é executada de forma sequencial, passo a passo, uma tarefa após a outra.
 
@@ -31,7 +31,7 @@ O código síncrono executa uma tarefa de cada vez, antes de passar para a próx
 <center> Cada paciente é atendimento por ordem de chegada, do primeiro para o ultimo, se fosse um código javascript seria executado de cima para baixo. </center>
 
 
-## Operação Assíncrona em Javascript
+## 📋 Operação Assíncrona em Javascript
 
 Uma operação assíncrona é aquela em que o programa pode continuar executando outras tarefas enquanto aguarda uma resposta. Um exemplo comum é fazer uma solicitação para uma API e aguardar a resposta. 
 
@@ -73,9 +73,33 @@ Um exemplo prático de operação assíncrona é o processo de preparação do p
   <h4>Exemplo de código Assíncrono em Javascript:</h4>
 <img src="https://i.ibb.co/5228v2C/carbon-1.png"/>
 </p>
-<p>O exemplo acima usa o método fetch para fazer uma requisição HTTP para a API da Speedio, passando o CNPJ como parâmetro de consulta. Em seguida, duas chamadas encadeadas do método .then() são usadas para tratar a resposta da requisição. <br>
+<p>O exemplo acima usa o método fetch para fazer uma requisição HTTP para a API da Speedio, passando o CNPJ como parâmetro de consulta. Em seguida, duas chamadas encadeadas do método .then() são usadas para tratar a resposta da requisição. <br> <br>
 O método fetch é, na verdade, uma função assíncrona que retorna uma Promise. As chamadas encadeadas .then() que vemos no código são usadas para lidar com o resultado dessa Promise.
 </p>
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
+
+## 😁 Canais que recomendo para aprender 
+
+| Canal | Conteudo | Link | Tempo |
+|-------|--------------|------|-------|
+| Roger Melo | Não sabe o que são promises?  | [Link](https://www.youtube.com/watch?v=S8qfn_XQT-A) | 18:57 |
+| Roger Melo | 2 passos fundamentais para você entender promises | [Link](https://www.youtube.com/watch?v=y6HSxH0FIWM) | 04:32 |
+| Roger Melo | Como criar e consumir uma promise | [Link](https://www.youtube.com/watch?v=kWmiHftLiVM) | 5:45 |
+| Roger Melo | O que é código assíncrono | [Link](https://www.youtube.com/watch?v=tVYTqsqZHZY) | 4:34 |
+| Matheus Battisti - Hora de Codar | Aprenda tudo sobre Promises de JavaScript | [Link](https://www.youtube.com/watch?v=87gWRVGRZ5o) | 23:22 |
+| Código Fonte TV | Desvendando DEFINITIVAMENTE as Promises em JavaScript  | [Link](https://www.youtube.com/watch?v=nRJhc6vXyK4) | 16:08 |
+
+
+
+
+## 🎁 Expressões de gratidão
+
+* Roger Melo;
+* Código Fonte TV;
+* Matheus Battisti - Hora de Codar;
+
+
+---
+⌨️ com ❤️ por [Fernando Silva de Jesus](https://github.com/fernandosilvajesus/) 😊
