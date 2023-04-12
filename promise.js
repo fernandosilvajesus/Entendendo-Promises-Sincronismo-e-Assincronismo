@@ -3,7 +3,7 @@ const getData = () => {
 
     //retornando uma Promise
         return new Promise((resolve, reject) => {
-            //resolve('DADOS AQUI')
+            //resolve('DADOS OBTIDOS PROMISE RESOLVIDA')
             reject("DADOS NÃO OBTIDOS PROMISE REJEITADA")
         })
     }
