@@ -30,6 +30,21 @@ O código síncrono executa uma tarefa de cada vez, antes de passar para a próx
 </p>
 <center> Cada paciente é atendimento por ordem de chegada, do primeiro para o ultimo, se fosse um código javascript seria executado de cima para baixo. </center>
 
+
+## Operação Assíncrona em Javascript
+
+Uma operação assíncrona é aquela em que o programa pode continuar executando outras tarefas enquanto aguarda uma resposta. Um exemplo comum é fazer uma solicitação para uma API e aguardar a resposta. Enquanto o programa aguarda a resposta da API, outras ações podem ser realizadas, tornando a experiência do usuário mais fluida e sem interrupções desnecessárias.
+
+Um exemplo prático de operação assíncrona é o processo de preparação do pedido em um restaurante. Depois que o cliente faz o pedido, o funcionário leva o pedido para a cozinha, onde será preparado. Enquanto o cozinheiro está preparando o pedido, o cliente pode continuar conversando com sua família ou olhando o cardápio. Quando o pedido estiver pronto, o funcionário irá entregá-lo à mesa do cliente.
+
+<p align="center">
+ <h4> Operação feita de forma Asincrona </h4>
+<img src="https://i.ibb.co/5jrpx37/5083234-2668461.jpg"/>
+</p>
+
+
+## ⚙️ Vamos sair um pouco da teoria!
+
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
