@@ -25,8 +25,10 @@ O código síncrono executa uma tarefa de cada vez, antes de passar para a próx
 
 
 <p align="center">
+ <h4> Operação feita de forma Sincrona </h4>
 <img src="https://i.ibb.co/sy6QHTM/2206-w048-n005-168b-p1-168.jpg"/>
 </p>
+<center> Cada paciente é atendimento por ordem de chegada, do primeiro para o ultimo, se fosse um código javascript seria executado de cima para baixo. </center>
 
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
