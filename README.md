@@ -45,7 +45,7 @@ Um exemplo prático de operação assíncrona é o processo de preparação do p
 </p>
 
 
-## ⚙️ Vamos sair um pouco da teoria!
+## ⚙️ Agora que entendemos um pouco sobre Operações sincronas e assincronas Vamos sair um pouco da teoria!
 
 #### Código síncrono: 
 <p align="center">
